@@ -60,3 +60,5 @@ Route::prefix('frontend')->group(function (){
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 });
+
+Route::view('/testing', 'admin.produk.index');
